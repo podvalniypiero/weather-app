@@ -1,22 +1,15 @@
 
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import {React, useState} from 'react';
 import Container from './components/Container/Container';
 
 function App() {
-
-
   return (
-    <div className="App">
-      <Routes>
 
-        <Route path='/' element = {
-          
+        <div className="App">
           <Container/>
-        }/>
-
-      </Routes>
-    </div>
+        </div>
+  
   );
 }
 

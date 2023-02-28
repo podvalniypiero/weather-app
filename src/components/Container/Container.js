@@ -85,7 +85,7 @@ function Container() {
     return(
         <div className={styles.container}>
           <div className={styles.header}>
-               <input type="text" className={styles.input} spellcheck="false" placeholder="Please, enter city..."/>
+               <input type="text" className={styles.input} spellCheck="false" placeholder="Please, enter city..."/>
            </div>
            <div className={styles['when-where']}>
                <p className={styles.city}>Montreal, CA</p>
