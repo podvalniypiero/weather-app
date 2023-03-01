@@ -87,7 +87,8 @@ function Container() {
           <div className={styles.header}>
                <input type="text" className={styles.input} spellCheck="false" placeholder="Please, enter city..."/>
            </div>
-           <div className={styles['when-where']}>
+        <div className={styles['container-info']}>
+        <div className={styles['when-where']}>
                <p className={styles.city}>Montreal, CA</p>
                <p className={styles.date}> Sunday 27°С  July 2022</p>
            </div>
@@ -98,6 +99,8 @@ function Container() {
                <p className={styles.variation}> Min: 25 °С  Max: 28 °С </p>
            </div>
         </div>
+        </div>
+       
      );
   }
   
